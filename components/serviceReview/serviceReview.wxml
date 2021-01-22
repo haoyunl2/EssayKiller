@@ -1,0 +1,17 @@
+<!--components/serviceReview/servieceReview.wxml-->
+<view wx:for="{{reviews}}" wx:key="{{index}}" class="container">
+  <view class="top">
+    <image src="{{item.avatarUrl}}"></image>
+    <view class="right">
+      <view class="id">{{item.id}}</view>
+      <view class="middle">
+        <view class="tag">深度提升</view>
+        <view class="name">杰瑞</view>
+      </view>
+      <view class="text">{{item.content}}</view>
+    </view>
+  </view>
+
+  <view class="line"></view>
+  
+</view>

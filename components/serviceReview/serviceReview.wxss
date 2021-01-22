@@ -1,0 +1,49 @@
+/* components/serviceReview/servieceReview.wxss */
+image{
+  width: 150rpx;
+  height: 100rpx;
+}
+.container{
+  margin-top: 40rpx;
+}
+.container .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.container .top view{
+  margin-top: 10rpx;
+}
+.id{
+  color: #5698c3;
+}
+.text{
+  font-size: 20rpx;
+  color: #5698c3;
+}
+.line{
+  width: 90%;
+  height: 2rpx;
+  background-color:#c6c6c6;
+  margin: auto;
+  margin-top: 20rpx;
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+}
+.middle view{
+  width: 80rpx;
+  font-size: 20rpx;
+  text-align: center;
+}
+.middle .tag{
+  color:white;
+  background-color:#5698c3;
+}
+.middle .name{
+  color:white;
+  background-color: #c6c6c6;
+}

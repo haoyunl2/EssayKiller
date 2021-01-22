@@ -1,0 +1,87 @@
+/* pages/essaySelection/index.wxss */
+swiper{
+  height: 650rpx;
+  color: white;
+}
+swiper swiper-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+swiper view{
+  width: 500rpx;
+}
+swiper .ZHtitle{
+  position: absolute;
+  top: 250rpx;
+  left: 40rpx;
+  text-decoration:underline;
+}
+swiper .ENtitle{
+  position: absolute;
+  top: 300rpx;
+  left: 40rpx;
+  text-decoration:underline;
+}
+swiper .serviceTime{
+  position: absolute;
+  top: 400rpx;
+  left: 40rpx;
+  font-size: 20rpx;
+}
+swiper .descript{
+  position: absolute;
+  top: 460rpx;
+  left: 40rpx;
+  font-size: 20rpx;
+}
+swiper .price{
+  position: absolute;
+  top: 550rpx;
+  left: 40rpx;
+  font-size: 20rpx;
+}
+.slide-image{
+  height: 553rpx;
+  width: 468rpx;
+}
+swiper-item .active{
+  width: 550rpx;
+  height: 650rpx;
+  transition:all .3s ease-in 0s;
+}
+.shoppingCart{
+  position: absolute;
+  right: 80rpx;
+  bottom: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.kefu{
+  position: absolute;
+  right: 150rpx;
+  bottom: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.indicator{
+  width: 300rpx;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 40rpx;
+  justify-content: space-around;
+}
+.indicator .normal{
+  width: 75rpx;
+  height: 8rpx;
+  background-color:#c6c6c6;
+  border-radius: 15rpx;
+}
+.indicator .active{
+  width: 75rpx;
+  height: 8rpx;
+  background-color:#5698c3;
+  transition:all .3s ease-in 0s;
+  border-radius: 15rpx;
+}

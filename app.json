@@ -1,12 +1,13 @@
 {
   "pages": [
-    "pages/team/index",
+    "pages/service/index",
     "pages/index/index",
+    "pages/team/index",
+    "pages/mien/index",
+    "pages/contact/index",
     "pages/detail/index",
     "pages/list/index",
-    "pages/contact/index",
-    "pages/strength/index",
-    "pages/mien/index"
+    "pages/strength/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
