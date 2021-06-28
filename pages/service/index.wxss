@@ -1,0 +1,52 @@
+.essay{
+  background-color: #fff;
+  height:1120rpx;
+  /* margin:170rpx 36rpx 36rpx 36 rpx  */
+}
+
+.essay_bg{
+  position: absolute;
+  width: 100%;
+  z-index: 1
+}
+
+.resume{
+  position: absolute;
+  left: 36rpx;
+  top: 170rpx;
+  z-index:2;
+  width:330rpx
+}
+
+.undergraduate{
+  position: absolute;
+  left: 381rpx;
+  top: 170rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+.recommend{
+  position: absolute;
+  left: 36rpx;
+  top: 535rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+.transfer{
+  position: absolute;
+  left: 381rpx;
+  top: 720rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+.img-button{
+  position: static;
+  padding: 0;
+  border: none
+}
+
+
+
