@@ -1,0 +1,81 @@
+/* pages/collection/index.wxss */
+
+.background{
+  width:100%;
+  background:#fff;
+}
+
+.instructor image{
+  width:100%;
+  height:100%
+}
+
+.upper{
+  width:100%;
+  display:flex;
+  margin:0 36rpx 0rpx 36rpx;
+}
+
+.lower{
+  width:100%;
+  display: flex;
+  margin:0 36rpx 34rpx 36rpx;
+}
+
+.photo{
+  width:170rpx;
+  height:170rpx
+}
+
+.intro{
+  width:508rpx;
+  height:170rpx
+}
+
+.icon{
+  width: 170rpx;
+  height:34rpx;
+  display:flex;
+  /* align-items: center; */
+  background:#f2f3f4
+}
+
+
+.icon .person{
+  width: 50%;
+}
+
+.icon .person image{
+  width: 80%;
+  height: 80%;
+}
+
+.icon .rank{
+  width: 50%;
+}
+
+.icon .rank image{
+  width: 80%;
+  height: 80%;
+}
+
+
+.univer{
+  background:#66a0d0;
+  width: 508rpx;
+  height: 34rpx; 
+}
+
+/* Set the font to be used */
+.iconFont{
+  color:#144a74;
+  font-size: 18rpx
+}
+
+.univFont{
+  color: #fff;
+  font-family: Garamond, serif;
+  font-weight: Bold;
+  font-size: 20rpx;
+  margin-left: 29rpx;
+}

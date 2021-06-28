@@ -1,0 +1,81 @@
+<!--pages/personalInfo/index.wxml-->
+<!-- 返回按钮，返回个人信息的tab页面 -->
+<view class="back">
+<image bindtap="goback" src="infoimage/返回.png"></image><text bindtap="goback">返回</text>
+</view>
+
+<!-- 头像及个人ID的view -->
+<view class="background">
+<image class="head" mode="scaleToFill" src="{{imagesrc}}"></image>
+<view class="id">1659854623</view>
+</view>
+
+<!-- 个人详细信息 -->
+<view class="info">
+<view class="singleinfo">
+
+<view class="left"><image src="infoimage/icon02.png"></image><text decode>&nbsp;姓名/Name</text></view>
+<view class="right">
+<input bindconfirm="changename" placeholder="{{name}}"  placeholder-class="placeholderstyle"></input>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon03.png"></image><text decode>&nbsp;性别/Gender</text></view>
+<view class="right">
+<!-- 性别选择，编辑后同时改变data中gender的value -->
+<picker mode="selector" bindchange="bindPickerChange" value="{{ind}}" range="{{gender}}">
+  <view class="picker">
+      {{gender[ind]}}
+  </view>
+</picker>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon05.png"></image><text decode>&nbsp;昵称/Nickname</text></view>
+<view class="right">
+<input bindconfirm="changenickname" placeholder="{{nickname}}"  placeholder-class="placeholderstyle"></input>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon06.png"></image><text decode>&nbsp;生日/Birthday</text></view>
+<view class="right">
+<!-- 生日的日期选择，编辑后同时改变data中birthday的date -->
+ <picker mode="date" value="{{birthday}}" bindchange="bindDateChange">
+    <view class="picker">
+      {{birthday}}
+    </view>
+  </picker>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon07.png"></image><text decode>&nbsp;邮箱/E-mail</text></view>
+<view class="right">
+<input bindconfirm="changemail" placeholder="{{email}}"  placeholder-class="placeholderstyle"></input>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon04.png"></image><text decode>&nbsp;学校/University</text></view>
+<view class="right">
+<input bindconfirm="changeuniver" placeholder="{{univer}}"  placeholder-class="placeholderstyle"></input>
+</view>
+</view>
+
+<view class="singleinfo">
+<view class="left"><image src="infoimage/icon08.png"></image><text decode>&nbsp;专业/Major</text></view>
+<view class="right">
+<!-- 专业选择， 编辑后同时改变data中major的value -->
+<picker mode="selector" bindchange="bindPickerChange_maj" value="{{ind_maj}}" range="{{major}}">
+  <view class="picker">
+      {{major[ind_maj]}}
+  </view>
+</picker>
+</view>
+</view>
+
+</view>
+

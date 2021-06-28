@@ -1,23 +1,11 @@
-<!--pages/essaySelection/index.wxml-->
-<swiper  bindchange="displayMain" previous-margin="100rpx" next-margin="100rpx" >
-  <block wx:for="{{swiperList}}" wx:index="{{index}}">
-    <swiper-item>
-    <image  src="{{item.image_src}}" class="slide-image {{item.id==current?'active':''}}"></image>
-    <view class="ZHtitle">{{item.ZHtitle}}</view>
-    <view class="ENtitle">{{item.ENtitle}}</view>
-    <view class="serviceTime">{{item.time}}</view>
-    <view class="descript">{{item.descript}}</view>
-    <view class="price">{{item.price}}元/起</view>
-    
-    <image src="../../image/shoppingCart.png" class="shoppingCart"></image>
-    <image src="../../image/kefu.png" class="kefu"></image>
-    </swiper-item>
-  </block>
-</swiper>
-<view class="indicator" >
-  <view wx:for="{{swiperList}}" index="{{index}}" class="normal {{current==index?'active':''}}">
-  </view>
-</view>
-<ServiceReview reviews="{{reviews}}"></ServiceReview>
+<view class="essay">
+  <image class = "essay_bg" src="/image/essay_bg.jpeg" mode="widthFix"></image>
 
- 
+  <button class="img-button" plain bindtap="goToSeviceBuy">
+    <image class = "resume" src="/image/resume.jpeg" mode="widthFix"></image>
+  </button>>
+  
+  <image class = "undergraduate" src="/image/undergraduate.jpeg" mode="widthFix"></image>
+  <image class = "recommend" src="/image/recommend.jpeg" mode="widthFix"></image>
+  <image class = "transfer" src="/image/transfer.jpeg" mode="widthFix"></image>
+</view>

@@ -1,4 +1,5 @@
 {
+  "cloudfunctionRoot": "functions/",
   "description": "项目配置文件。",
   "setting": {
     "urlCheck": true,
@@ -20,7 +21,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -38,7 +39,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "1.6.0",
-  "appid": "wxa0a7ecd23bee375c",
+  "appid": "wx0b8887ee885e6880",
   "projectname": "essayKiller",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
@@ -63,6 +64,12 @@
         {
           "name": "pages/team/index",
           "pathName": "pages/team/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service/index",
+          "pathName": "pages/service/index",
           "scene": null
         }
       ]
