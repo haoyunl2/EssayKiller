@@ -1,0 +1,101 @@
+/* pages/personalInfo/index.wxss */
+page{
+  background-color: white;
+}
+
+.back{
+padding: 15rpx;
+padding-left: 25rpx;
+color: #144870;
+font-size: 28rpx;
+}
+
+.back image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.background{
+  height: 355rpx;
+  background-color: rgb(163,199,232);
+  text-align: center;
+  padding-top: 90rpx;
+
+}
+
+
+
+.background .head{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8rpx solid white;
+  box-sizing: border-box;
+}
+
+.background .id{
+  margin-top: 30rpx;
+  color: white;
+  font-size: 33rpx;
+  font-weight: 400;
+}
+
+.info{
+  width: 90%;
+  margin-left: auto;
+  margin-right:auto;
+  height: 400rpx;
+  margin-top: -40rpx;
+  box-sizing: border-box;
+}
+
+.singleinfo{
+  width: 100%;
+  display: flex;
+  height: 110rpx;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  color: #144870;
+  font-size: 28rpx;
+  font-weight: 500;
+  box-shadow: 1rpx 1rpx 1rpx 1rpx rgb(223,223,223);
+  margin-bottom: 33rpx;
+  
+}
+
+.singleinfo .left{
+  align-items: center;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+.singleinfo .left text{
+  vertical-align: middle;
+}
+
+.singleinfo .right{
+  align-items: center;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+  text-align: right;
+}
+.singleinfo .right text{
+  vertical-align: middle;
+}
+.singleinfo image{
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+}
+
+.placeholderstyle{
+  color: #144870;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+

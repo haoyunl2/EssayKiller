@@ -4,11 +4,10 @@
     "pages/service/index",
     "pages/team/index",
     "pages/index/index",
-    "pages/mien/index",
     "pages/contact/index",
-    "pages/detail/index",
-    "pages/list/index",
-    "pages/strength/index"
+    "pages/serviceBuy/index",
+    "pages/personalInfo/index",
+    "pages/collection/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -31,7 +30,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/list/index",
+        "pagePath": "pages/service/index",
         "iconPath": "image/essay.png",
         "selectedIconPath": "image/essay_selected.png",
         "text": "文书润色"

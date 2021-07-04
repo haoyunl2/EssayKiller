@@ -1,4 +1,5 @@
 {
+  "cloudfunctionRoot": "functions/",
   "description": "项目配置文件。",
   "setting": {
     "urlCheck": true,
@@ -63,6 +64,12 @@
         {
           "name": "pages/team/index",
           "pathName": "pages/team/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/service/index",
+          "pathName": "pages/service/index",
           "scene": null
         }
       ]

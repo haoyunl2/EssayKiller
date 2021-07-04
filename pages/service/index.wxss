@@ -1,87 +1,52 @@
-/* pages/essaySelection/index.wxss */
-swiper{
-  height: 650rpx;
-  color: white;
+.essay{
+  background-color: #fff;
+  height:1120rpx;
+  /* margin:170rpx 36rpx 36rpx 36 rpx  */
 }
-swiper swiper-item{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-swiper view{
-  width: 500rpx;
-}
-swiper .ZHtitle{
+
+.essay_bg{
   position: absolute;
-  top: 250rpx;
-  left: 40rpx;
-  text-decoration:underline;
+  width: 100%;
+  z-index: 1
 }
-swiper .ENtitle{
+
+.resume{
   position: absolute;
-  top: 300rpx;
-  left: 40rpx;
-  text-decoration:underline;
+  left: 36rpx;
+  top: 170rpx;
+  z-index:2;
+  width:330rpx
 }
-swiper .serviceTime{
+
+.undergraduate{
   position: absolute;
-  top: 400rpx;
-  left: 40rpx;
-  font-size: 20rpx;
+  left: 381rpx;
+  top: 170rpx;
+  z-index: 2;
+  width:330rpx
 }
-swiper .descript{
+
+.recommend{
   position: absolute;
-  top: 460rpx;
-  left: 40rpx;
-  font-size: 20rpx;
+  left: 36rpx;
+  top: 535rpx;
+  z-index: 2;
+  width:330rpx
 }
-swiper .price{
+
+.transfer{
   position: absolute;
-  top: 550rpx;
-  left: 40rpx;
-  font-size: 20rpx;
+  left: 381rpx;
+  top: 720rpx;
+  z-index: 2;
+  width:330rpx
 }
-.slide-image{
-  height: 553rpx;
-  width: 468rpx;
+
+.img-button{
+  position: static;
+  padding: 0;
+  border: none
 }
-swiper-item .active{
-  width: 550rpx;
-  height: 650rpx;
-  transition:all .3s ease-in 0s;
-}
-.shoppingCart{
-  position: absolute;
-  right: 80rpx;
-  bottom: 50rpx;
-  width: 50rpx;
-  height: 50rpx;
-}
-.kefu{
-  position: absolute;
-  right: 150rpx;
-  bottom: 50rpx;
-  width: 50rpx;
-  height: 50rpx;
-}
-.indicator{
-  width: 300rpx;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-top: 40rpx;
-  justify-content: space-around;
-}
-.indicator .normal{
-  width: 75rpx;
-  height: 8rpx;
-  background-color:#c6c6c6;
-  border-radius: 15rpx;
-}
-.indicator .active{
-  width: 75rpx;
-  height: 8rpx;
-  background-color:#5698c3;
-  transition:all .3s ease-in 0s;
-  border-radius: 15rpx;
-}
+
+
+
