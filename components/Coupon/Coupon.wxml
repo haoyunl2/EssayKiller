@@ -1,0 +1,18 @@
+<!--components/Coupon/Coupon.wxml-->
+<view class="container">
+<view class="left">￥50</view>
+<view class="right">
+  <view class="top">
+    <view>本科文书</view>
+  <button class="giveFriend">转增朋友</button>
+  <button class="useNow">立即使用</button>
+  </view>
+  <view class="bot">
+  <view class="time">有效期至 2021-3-3</view>
+  <view class="use">满1000可使用</view>
+  </view>
+
+</view>
+
+
+</view>

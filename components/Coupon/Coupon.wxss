@@ -1,0 +1,46 @@
+/* components/Coupon/Coupon.wxss */
+.container{
+  width: 680rpx;
+  height: 160rpx;
+  display: flex;
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+}
+.container .left{
+  width: 30%;
+  background-color: rgb(0, 119, 255);
+  
+  color: white;
+  text-align: center;
+  line-height: 160rpx;
+  font-size: 70rpx;
+}
+.container .right{
+  width: 70%;
+  background-color: rgb(206, 202, 202);
+  font-size: 25rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+}
+.container .right .top{
+  display:flex;
+  color: #114870;
+}
+.container .right .bot{
+  font-size: 15rpx;
+  color: #969696;
+}
+.useNow{
+  display: block;
+}
+.giveFriend{
+  display: block;
+}
+button{
+  width: 140rpx;
+  height: 50rpx;
+  border: none;
+  font-size: 20rpx;
+  color: blue;
+}
+

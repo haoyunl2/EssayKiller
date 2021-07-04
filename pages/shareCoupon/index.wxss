@@ -1,0 +1,26 @@
+/* pages/shareCoupon/index.wxss */
+.title{
+  display: flex;
+  flex-direction: row;
+}
+.title{
+  border-color: rgb(224, 221, 221);
+  box-shadow: 1rpx;
+  border-radius: 15rpx;
+}
+.title view{
+  width: 50%;
+  font-size: 30rpx;
+  text-align: center;
+}
+.title .left{
+  color:#114870;
+} 
+.title .right{
+  color: #969696;
+} 
+
+.coupon{
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/shareCoupon/index.wxml-->
+<view>Essay Killer</view>
+<view class="title">
+<view class="left">可使用(8)</view>
+<view class="right">已过期(8)</view>
+</view>
+<Coupon class="coupon"></Coupon>
+<Coupon class="coupon"></Coupon>

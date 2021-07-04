@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/shareCoupon/index",
     "pages/service/index",
-    "pages/index/index",
     "pages/team/index",
+    "pages/index/index",
     "pages/mien/index",
     "pages/contact/index",
     "pages/detail/index",
