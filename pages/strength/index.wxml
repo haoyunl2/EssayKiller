@@ -1,45 +1,153 @@
 <view class="main">
 
-<view class="utitle">
-        <view class="mtitle">师资力量</view>
-        <view class="ztitle">strength</view>
-    </view> 
-
-
 <view class="strengtharea">
 <view class="inner">
 
-<view class="strengthlist">
-<view class="strengthimg"><image src="/image/1.jpg"></image></view>
-<view class="strengthinfo">
-	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
-	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+<view class = "list">
+<view class = "rowone">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/tom.png" ></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="oname">汤姆<text class="ostatus">进行中</text></view>
 </view>
 </view>
 
-<view class="strengthlist">
-<view class="strengthimg"><image src="/image/1.jpg"></image></view>
-<view class="strengthinfo">
-	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
-	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+<view class = "rowtwo">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_time.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="time">开始时间<text class="ostarting_time">2021.2.5</text></view>
 </view>
 </view>
 
-<view class="strengthlist">
-<view class="strengthimg"><image src="/image/1.jpg"></image></view>
-<view class="strengthinfo">
-	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
-	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+<view class = "rowthree">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_wait.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="remaining_time">剩余时间<text class="oremaining_time">5天</text></view>
 </view>
 </view>
 
-<view class="strengthlist">
-<view class="strengthimg"><image src="/image/1.jpg"></image></view>
-<view class="strengthinfo">
-	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
-	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+<view class = "rowfour">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_find.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="service">服务内容<text class="oservice">语法修改</text></view>
 </view>
 </view>
+</view>
+
+<view class = "list">
+<view class = "rowone">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/tom.png" ></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="oname">汤姆<text class="ostatus">进行中</text></view>
+</view>
+</view>
+
+<view class = "rowtwo">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_time.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="time">开始时间<text class="ostarting_time">2021.2.5</text></view>
+</view>
+</view>
+
+<view class = "rowthree">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_wait.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="remaining_time">剩余时间<text class="oremaining_time">5天</text></view>
+</view>
+</view>
+
+<view class = "rowfour">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_find.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="service">服务内容<text class="oservice">语法修改</text></view>
+</view>
+</view>
+</view>
+
+<view class = "list">
+<view class = "rowone">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/tom.png" ></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="oname">汤姆<text class="ostatus">进行中</text></view>
+</view>
+</view>
+
+<view class = "rowtwo">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_time.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+	<view class="time">开始时间<text class="ostarting_time">2021.2.5</text></view>
+</view>
+</view>
+
+<view class = "rowthree">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_wait.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="remaining_time">剩余时间<text class="oremaining_time">5天</text></view>
+</view>
+</view>
+
+<view class = "rowfour">
+	<view class="orderimg">
+		<view class="shell">
+		<image src="/image/order_find.png" mode="heightFix"></image>
+	</view>
+	</view>
+	<view class = "info">
+		<view class="service">服务内容<text class="oservice">语法修改</text></view>
+</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
 
 </view>
 </view>

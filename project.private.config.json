@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/list/index",
+          "pathName": "pages/list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/team/index",
+          "pathName": "pages/team/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/strength/index",
+          "pathName": "pages/strength/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/strength/index",
+          "pathName": "pages/team/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/torder/index",
+          "pathName": "pages/order/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
