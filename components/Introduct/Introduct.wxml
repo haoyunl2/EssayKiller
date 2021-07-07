@@ -1,7 +1,28 @@
 <!--components/Introduct.wxml-->
-<view class="introduct">
-    <view class="inner" wx:for="{{instructor}}" wx:key="_id">
-        <view class="pleft" url="" ><image src="{{item.image}}"mode="scaleToFill"></image></view>
-        <view class="pright" url=""><image src="{{item.intro}}"mode="scaleToFill"></image></view>
+
+<view class="background">
+  <view class="instructor" wx:for="{{instructor}}" wx:key="_id">
+    <view class="upper">
+      <view class="photo"><image src="{{item.photo}}" mode="scaleToFill"></image></view>
+      <view class="intro"><image src="{{item.intro}}" mode="scaleToFill"></image></view>
     </view>
+
+    <view class="lower">
+      <view class="icon">
+        <view class="icon person">
+          <image src="{{icon_person}}" mode="heightFix"></image>
+          <text class="iconFont" space="ensp"> {{item.person}}</text>
+          
+        </view>
+        <view class="icon rank">
+          <image src="{{icon_rank}}" mode="heightFix"></image>
+            <text class="iconFont" space="ensp"> {{item.rank}}</text>
+          </view>
+      </view>
+      <view class="univer">
+        <text class="univFont">{{univ}}</text>
+      </view>
+    </view>  
+	</view>
 </view>
+ 
