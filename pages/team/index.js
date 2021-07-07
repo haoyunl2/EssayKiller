@@ -31,7 +31,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.cloud.callFunction({
+      name:"GetTeamMem",
+      data:{
+        majorId:1
+      }
+    }).then(res => {
+      console.log("获取成功");
+      console.log(res);
+      // this.setData({
+      //   instructor:res.result.data,
+      // });
+    })
   },
   handleIndexShowChange(e){
     const {index} = e.detail;

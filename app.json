@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/shareCoupon/index",
-    "pages/service/index",
     "pages/team/index",
+    "pages/service/index",
+    "pages/shareCoupon/index",
     "pages/index/index",
     "pages/contact/index",
     "pages/serviceBuy/index",

@@ -8,8 +8,7 @@
 }
 .container .left{
   width: 30%;
-  background-color: rgb(0, 119, 255);
-  
+  background-color: #4c65ae;
   color: white;
   text-align: center;
   line-height: 160rpx;
@@ -17,7 +16,7 @@
 }
 .container .right{
   width: 70%;
-  background-color: rgb(206, 202, 202);
+  background-color: #f7f7f7;
   font-size: 25rpx;
   padding-top: 20rpx;
   box-sizing: border-box;
@@ -41,6 +40,6 @@ button{
   height: 50rpx;
   border: none;
   font-size: 20rpx;
-  color: blue;
+  color: #4c65ae;
 }
 
