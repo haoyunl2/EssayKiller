@@ -1,9 +1,8 @@
 //index.js
 //获取应用实例
-var app = getApp();
-var config = require("../../config.js");
 Page( {
   data: {
+    swiperUrlArry:[],
     images: [
     '/image/tom.png',
     '/image/tom_and_jerry.png',
@@ -98,28 +97,18 @@ Page( {
     ]
   },
 	
-  calling: function () {
-    wx.makePhoneCall({
-      phoneNumber: config.telphone,
-      success: function () {
-        console.log("拨打电话成功！")
-      },
-      fail: function () {
-        console.log("拨打电话失败！")
-      }
+  onLoad: function (options) {
+    wx.cloud.callFunction({
+      name:"GetSwiperImage"
     })
-  },
-
-  onLoad: function() {
-    var that = this;
-	console.log(config.courses);
-	that.setData({courses:config.courses});
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo( function( userInfo ) {
-      //更新数据
-      that.setData( {
-        userInfo: userInfo
+    .then(res => {
+      console.log("获取轮播图成功", res)
+      this.setData({
+        swiperUrlArry:res.result
       })
+    })
+    .catch(res => {
+      console.log("获取轮播图失败", res)
     })
   },
 

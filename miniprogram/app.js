@@ -1,6 +1,13 @@
 //app.js
 App({
   onLaunch: function () {
+    // 初始化云函数环境
+    wx.cloud.init({
+      // 此处请填入环境 ID, 环境 ID 可打开云控制台查看
+      env: 'essay-polisher-1g30n3m6d47fe0e3',
+      traceUser: true,
+    })
+
     console.log('App Launch')
       //调用API从本地缓存中获取数据
     var logs = wx.getStorageSync('logs') || []
@@ -36,5 +43,5 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
 })
