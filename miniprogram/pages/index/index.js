@@ -64,26 +64,35 @@ Page( {
     instructor: [
       {
         id:0,
-        name:"皮卡丘",
+        name:"皮卡丘1",
         photo:"/image/pikaqiu.png",
         person:150,
-        rank:4.5
+        rank:4.5,
+        role:"本科生",
+        univWord:"加州大学伯克利",
+        service:"本科文书"
       },
 
       {
         id:1,
-        name:"皮卡丘",
+        name:"皮卡丘2",
         photo:"/image/pikaqiu.png",
         person:150,
-        rank:4.5
+        rank:4.5,
+        role:"研究生",
+        univWord:"南加州大学",
+        service:"本科文书/留学咨询"
       },
 
       {
         id:2,
-        name:"皮卡丘",
+        name:"皮卡丘3",
         photo:"/image/pikaqiu.png",
         person:150,
-        rank:4.5
+        rank:4.5,
+        role:"博士生",
+        univWord:"哥伦比亚大学",
+        service:"本科文书/转学文书"
       }
     ],
     

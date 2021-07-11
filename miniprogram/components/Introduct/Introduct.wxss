@@ -31,10 +31,12 @@
 .intro{
   width:508rpx;
   height:170rpx;
-  display:flex
+  display:flex;
+  flex-direction:column;
+  background:#f2f3f4
 }
 
-.name{
+.intro .name{
   width: 100%;
   height:44rpx;
 }
@@ -44,14 +46,37 @@
   font-size: 25rpx
 }
 
-.role{
+.intro .role{
   width: 100%;
   height: 28rpx;
 }
 
-.univWord{
-  width: 100%;
+.roleFont{
+  color:#144a74;
+  font-size: 18rpx
 }
+
+.intro .univWord{
+  width: 100%;
+  height: 48rpx
+}
+
+.univWordFont{
+  color: #144a74;
+  font-size: 18rpx
+}
+
+.intro .service{
+  width: 100%;
+  height: 50 rpx;
+}
+
+.serviceFont{
+  color: #144a74;
+  font-size: 18rpx
+}
+
+
 
 .icon{
   width: 170rpx;

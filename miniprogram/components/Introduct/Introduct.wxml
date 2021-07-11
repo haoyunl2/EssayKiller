@@ -6,7 +6,16 @@
       <view class="photo"><image src="{{item.photo}}" mode="scaleToFill"></image></view>
       <view class="intro">
         <view class="name">
-        <text class="nameFont">{{item.name}}</text>
+        <text class="nameFont" space="ensp">  {{item.name}}</text>
+        </view>
+        <view class="role">
+        <text class="roleFont" space="ensp">   {{item.role}}</text>
+        </view>
+        <view class="univWord">
+        <text class="univWordFont" space="ensp">   {{item.univWord}}</text>
+        </view>
+        <view class="service">
+        <text class="serviceFont" space="ensp">   {{item.service}}</text>
         </view>
       </view>
     </view>
