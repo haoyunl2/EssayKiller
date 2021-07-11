@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/collection/index",
+    "pages/index/index",
     "pages/team/index",
     "pages/service/index",
-    "pages/shareCoupon/index",
-    "pages/index/index",
     "pages/contact/index",
+    "pages/collection/index",
     "pages/serviceBuy/index",
+    "pages/shareCoupon/index",
     "pages/personalInfo/index"
   ],
   "window": {

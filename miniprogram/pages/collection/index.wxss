@@ -1,10 +1,10 @@
-<<<<<<< Updated upstream:pages/collection/index.wxss
+/* <<<<<<< Updated upstream:pages/collection/index.wxss
 =======
 /* pages/collection/index.wxss */
-
+/* 
 .background{
   width:100%;
-  background:#fff;
+  background: #ffffff
 }
 
 .instructor image{
@@ -41,7 +41,7 @@
   width: 170rpx;
   height:34rpx;
   display:flex;
-  /* align-items: center; */
+  /* align-items: center; 
   background:#f2f3f4
 }
 
@@ -51,7 +51,7 @@
 }
 
 .icon .person image{
-  width: 80%;
+  /* width: 80%;
   height: 80%;
 }
 
@@ -72,7 +72,7 @@
 }
 
 /* Set the font to be used */
-.iconFont{
+/* .iconFont{
   color:#144a74;
   font-size: 18rpx
 }
@@ -83,5 +83,5 @@
   font-weight: Bold;
   font-size: 20rpx;
   margin-left: 29rpx;
-}
->>>>>>> Stashed changes:miniprogram/pages/collection/index.wxss
+} 
+>>>>>>> Stashed changes:miniprogram/pages/collection/index.wxss */ 

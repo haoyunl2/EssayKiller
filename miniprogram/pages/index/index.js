@@ -65,22 +65,25 @@ Page( {
       {
         id:0,
         name:"皮卡丘",
-        image:"/image/pikaqiu.png",
-        intro:"/image/pikaqiu_intro.png"
+        photo:"/image/pikaqiu.png",
+        person:150,
+        rank:4.5
       },
 
       {
         id:1,
         name:"皮卡丘",
-        image:"/image/pikaqiu.png",
-        intro:"/image/pikaqiu_intro.png"
+        photo:"/image/pikaqiu.png",
+        person:150,
+        rank:4.5
       },
 
       {
         id:2,
         name:"皮卡丘",
-        image:"/image/pikaqiu.png",
-        intro:"/image/pikaqiu_intro.png"
+        photo:"/image/pikaqiu.png",
+        person:150,
+        rank:4.5
       }
     ],
     

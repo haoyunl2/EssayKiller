@@ -13,20 +13,14 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/personalInfo/index",
-          "pathName": "pages/personalInfo/index",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/collection/index",
           "pathName": "pages/collection/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/personalInfo/index",
-          "pathName": "pages/personalInfo/index",
+          "name": "pages/shareCoupon/index",
+          "pathName": "pages/shareCoupon/index",
           "query": "",
           "scene": null
         }

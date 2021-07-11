@@ -4,7 +4,11 @@
   <view class="instructor" wx:for="{{instructor}}" wx:key="_id">
     <view class="upper">
       <view class="photo"><image src="{{item.photo}}" mode="scaleToFill"></image></view>
-      <view class="intro"><image src="{{item.intro}}" mode="scaleToFill"></image></view>
+      <view class="intro">
+        <view class="name">
+        <text class="nameFont">{{item.name}}</text>
+        </view>
+      </view>
     </view>
 
     <view class="lower">
@@ -19,8 +23,8 @@
             <text class="iconFont" space="ensp"> {{item.rank}}</text>
           </view>
       </view>
-      <view class="univer">
-        <text class="univFont">{{univ}}</text>
+      <view class="univFigure">
+        <text class="univFigureFont">{{univ}}</text>
       </view>
     </view>  
 	</view>

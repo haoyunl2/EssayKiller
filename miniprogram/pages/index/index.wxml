@@ -30,12 +30,13 @@
   <indexShow indexShow="{{indexShow}}" bindIndexShowChange="handleIndexShowChange">
   <block wx:if="{{indexShow[0].isActive}}">
     <view class="ubom40rpx"></view>
-    <view class="introduct">
+    <!-- <view class="introduct">
 	  <view class="inner" wx:for="{{instructor}}" wx:key="id">
   	<view class="pleft" url=""><image src="{{item.image}}" mode="scaleToFill"></image></view>
     <view class="pright" url=""><image src="{{item.intro}}" mode="scaleToFill"></image></view>
 	  </view>
-  	</view>
+  	</view> -->
+    <Introduct instructor="{{instructor}}"></Introduct>
   </block>
   <block wx:elif="{{indexShow[1].isActive}}">
     <view class="ubom40rpx"></view>

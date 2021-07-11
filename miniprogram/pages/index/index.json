@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "indexShow":"../../components/indexShow/indexShow"
+    "indexShow":"../../components/indexShow/indexShow",
+    "Introduct":"../../components/Introduct/Introduct"
   }
 }
